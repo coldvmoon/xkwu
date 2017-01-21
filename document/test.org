@@ -1,3 +1,5 @@
+#+SEQ_TODO: REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f)
+#+SEQ_TODO: TODO(T!) | DONE(D@)3  CANCELED(C@/!)    
 * 士大夫十分
 ** sfsdfsdf
  
@@ -14,3 +16,14 @@
     erwrwerwr sfsfsf
     swerw werwerwerwer234234234234234
     是否 dfgdsfs
+*** CANCELED [#A] sdfsf 
+    CLOSED: [2017-01-21 周六 23:53]
+    - State "CANCELED"   from "DONE(D@)3"  [2017-01-21 周六 23:53] \\
+      esdfsf
+    - State "TODO"       from "FIXED"      [2017-01-21 周六 23:53]
+    - State "TODO"       from "DONE(D@)3"  [2017-01-21 周六 23:53]
+*** TODO clean
+    SCHEDULED: <2017-01-22 周日 12:00>
+    - State "TODO"       from "FIXED"      [2017-01-21 周六 23:57]
+*** TODO 
+    SCHEDULED: <2017-01-22 周日 02:00>

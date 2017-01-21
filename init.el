@@ -317,10 +317,16 @@ before packages are loaded. If you are unsure, you should try in setting them in
 ;;(require 'popwin)
 ;;(popwin-mode 1)
 
+;;capture 的配置
 (setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "~/.emacs.d/gtd.org" "工作安排")
+      '(("t" "Todo" entry (file+headline "~/.spacemacs.d/gtd.org" "工作安排")
          "* TODO [#B] %?\n  %i\n"
          :empty-lines 1)))
+;;(setq org-agenda-files '("~/.spacemacs.d"))
+
+
+;;代码块高亮
+(setq org-src-fontify-natively t)
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.

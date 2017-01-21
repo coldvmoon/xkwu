@@ -1,4 +1,4 @@
-;;; packages.el --- xkwu layer packages file for Spacemacs.
+;;; packages.el --- org-pomodoro layer packages file for Spacemacs.
 ;;
 ;; Copyright (c) 2012-2016 Sylvain Benner & Contributors
 ;;
@@ -18,28 +18,26 @@
 ;;
 ;;
 ;; Briefly, each package to be installed or configured by this layer should be
-;; added to `xkwu-packages'. Then, for each package PACKAGE:
+;; added to `org-pomodoro-packages'. Then, for each package PACKAGE:
 ;;
 ;; - If PACKAGE is not referenced by any other Spacemacs layer, define a
-;;   function `xkwu/init-PACKAGE' to load and initialize the package.
+;;   function `org-pomodoro/init-PACKAGE' to load and initialize the package.
 
 ;; - Otherwise, PACKAGE is already referenced by another Spacemacs layer, so
-;;   define the functions `xkwu/pre-init-PACKAGE' and/or
-;;   `xkwu/post-init-PACKAGE' to customize the package as it is loaded.
+;;   define the functions `org-pomodoro/pre-init-PACKAGE' and/or
+;;   `org-pomodoro/post-init-PACKAGE' to customize the package as it is loaded.
 
 ;;; Code:
 
-(defconst xkwu-packages
-  '(org-pomodoro)
-  '(youdao-dictionary)
-  )
-  "The list of Lisp packages required by the xkwu layer.
+(defconst org-pomodoro-packages
+  '()
+  "The list of Lisp packages required by the org-pomodoro layer.
 
 Each entry is either:
 
 1. A symbol, which is interpreted as a package to be installed, or
 
-2. particularA list of the form (PACKAGE KEYS...), where PACKAGE is the
+2. A list of the form (PACKAGE KEYS...), where PACKAGE is the
     name of the package to be installed or loaded, and KEYS are
     any number of keyword-value-pairs.
 
@@ -58,15 +56,7 @@ Each entry is either:
         `./local/PACKAGE/PACKAGE.el'
 
       - A list beginning with the symbol `recipe' is a melpa
-        recipe.  See: https://github.com/milkypostman/melpa#recipe-format"
-(defun xkwu/init-youdao-dictionary()
-  (use-package youdao-dictionary
-    :defer t
-    :init
-    (spacemacs/set-leader-keys "oy" 'youdao-dictionary-search-at-point+)
-    )
-  )
-(defun xkwu/init-org-pomodoro()
-  (use-package org-pomodoro)
-  )
+        recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
+
+
 ;;; packages.el ends here
