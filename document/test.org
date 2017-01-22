@@ -27,3 +27,52 @@
     - State "TODO"       from "FIXED"      [2017-01-21 周六 23:57]
 *** TODO 
     SCHEDULED: <2017-01-22 周日 02:00>
+
+** this is a header
+   - Note taken on [2017-01-22 周日 22:09] \\
+     士大夫十分
+   - Note taken on [2017-01-22 周日 22:09] \\
+     魏汝稳魏汝稳
+   - Note taken on [2017-01-22 周日 22:07] \\
+     just do it
+*** 沙发沙发沙发
+    - Note taken on [2017-01-22 周日 22:10] \\
+      这才是entry
+Still outside the drawer
+:DRAWERNAME:
+this is inside the drawer
+:END:
+After the drawer
+:wwerwrwerwtsgdsgg:
+qweqeqweqeqesadasdasdasdasd
+qwrqr
+:END:
+learn english is importantsdfsf
+* sfsfdsfsf
+| table | name | address | email | tel |
+|-------+------+---------+-------+-----|
+|     1 |      |         |       |     |
+|     1 |      |         |       |     |
+|     3 |      |         |       |     |
+|     5 |      |         |       |     |
+|       |      |         |       |     |
+|-------+------+---------+-------+-----|
+|       |      |         |       |     |
+|-------+------+---------+-------+-----|
+|       |      |         |       |     |
+|-------+------+---------+-------+-----|
+|       |      |         |       |     |
+|-------+------+---------+-------+-----|
+|       |      |         |       |     |
+|       |      |         |       |     |
+#+TBLFM: 
+
+h[fn:2]omepage[fn:1]sdfsfsf
+
+[fn:1] 这是啊个交租
+
+* Footnotes
+
+[fn:2] werwrwrwrwr
+
+

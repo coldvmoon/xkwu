@@ -1,0 +1,5 @@
+table	name	address	email	tel
+1				
+1				
+3				
+5				
