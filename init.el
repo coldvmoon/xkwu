@@ -322,7 +322,7 @@ before packages are loaded. If you are unsure, you should try in setting them in
       '(("t" "Todo" entry (file+headline "~/.spacemacs.d/gtd.org" "工作安排")
          "* TODO [#B] %?\n  %i\n"
          :empty-lines 1)))
-;;(setq org-agenda-files '("~/.spacemacs.d"))
+(setq org-agenda-files '("~/.spacemacs.d"))
 
 
 ;;代码块高亮
