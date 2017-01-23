@@ -328,6 +328,12 @@ before packages are loaded. If you are unsure, you should try in setting them in
 ;;代码块高亮
 (setq org-src-fontify-natively t)
 
+;;文件夹默认打开目录
+(setq default-directory "~/.spacemacs.d/document/")
+
+;;开启图片显示
+(setq iimage-mode t)
+
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
 This function is called at the very end of Spacemacs initialization after

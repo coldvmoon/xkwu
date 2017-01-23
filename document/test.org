@@ -1,5 +1,9 @@
 #+SEQ_TODO: REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f)
-#+SEQ_TODO: TODO(T!) | DONE(D@)3  CANCELED(C@/!)    
+#+SEQ_TODO: TODO(T!) | DONE(D@)3  CANCELED(C@/!)
+#+CAPTION: A black cat stalking a spider
+#+ATTR_HTML: :alt cat/spider image :title Action! :align right
+#+STARTUP: inlineimages    
+[[TBL]]
 * 士大夫十分
 ** sfsdfsdf
  
@@ -8,10 +12,7 @@
 *** 石帆胜丰
 *** 沙发上 
     werwrwer
-
     werwrwrw
-
-
     werwrwrw
     erwrwerwr sfsfsf
     swerw werwerwerwer234234234234234
@@ -48,31 +49,31 @@ qweqeqweqeqesadasdasdasdasd
 qwrqr
 :END:
 learn english is importantsdfsf
-* sfsfdsfsf
-| table | name | address | email | tel |
-|-------+------+---------+-------+-----|
-|     1 |      |         |       |     |
-|     1 |      |         |       |     |
-|     3 |      |         |       |     |
-|     5 |      |         |       |     |
-|       |      |         |       |     |
-|-------+------+---------+-------+-----|
-|       |      |         |       |     |
-|-------+------+---------+-------+-----|
-|       |      |         |       |     |
-|-------+------+---------+-------+-----|
-|       |      |         |       |     |
-|-------+------+---------+-------+-----|
-|       |      |         |       |     |
-|       |      |         |       |     |
+* sfsfdsfsf :ATTACH:
+  :PROPERTIES:
+  :Attachments: test.html
+  :ID:       ecd741ca-7fa6-4e7b-81e0-c570050ca67d
+  :END:
+
+#+NAME:TBL
+| N | N^2 | N^3 | N^4 | ~sqrt(n)~ | ~sqrt[4](N)~ |
+|---+-----+-----+-----+-----------+--------------|
+| / |   < |     |   > |         < |            > |
+| 1 |   1 |   1 |   1 |         1 |            1 |
+| 2 |   4 |   8 |  16 |    1.4142 |       1.1892 |
+| 3 |   9 |  27 |  81 |    1.7321 |       1.3161 |
+|---+-----+-----+-----+-----------+--------------|
 #+TBLFM: 
 
-h[fn:2]omepage[fn:1]sdfsfsf
+[[file:./pic.jpg]]
+sdf[fn:2]omepage[fn:1]sdfsfsf
 
 [fn:1] 这是啊个交租
+** TBL
 
+[[file:pic.jpg][etst]]
 * Footnotes
-
 [fn:2] werwrwrwrwr
 
-
+werwrwrwr
+* todo
